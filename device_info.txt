@@ -1,0 +1,10 @@
+Device ID
+raspberry_pi
+Primary Key
+4KarncSXxJCE8+PHVF06YUkHU5Dw/C3dYZufHmu8TdQ=
+Secondary Key
+dqG4anfR9Mm2yzInEsyXeWJIg0usMr4ZwSKqXZRnryA=
+Primary Connection String
+HostName=RaspberryPiCartpole.azure-devices.net;DeviceId=raspberry_pi;SharedAccessKey=4KarncSXxJCE8+PHVF06YUkHU5Dw/C3dYZufHmu8TdQ=
+Secondary Connection String
+HostName=RaspberryPiCartpole.azure-devices.net;DeviceId=raspberry_pi;SharedAccessKey=dqG4anfR9Mm2yzInEsyXeWJIg0usMr4ZwSKqXZRnryA=

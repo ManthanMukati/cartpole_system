@@ -1,0 +1,2 @@
+﻿"pipe_od"=22
+"D2@Sketch1"="pipe_od"
