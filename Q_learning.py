@@ -3,8 +3,8 @@ import gym
 import numpy as np
 def Qtable(state_space,action_space,bin_size = 30):
     
-    bins = [np.linspace(-4.8,4.8,bin_size),
-            np.linspace(-4,4,bin_size),
+    bins = [np.linspace(-4.8,4.8,1),
+            np.linspace(-4,4,1),
             np.linspace(-0.418,0.418,bin_size),
             np.linspace(-4,4,bin_size)]
     
@@ -34,7 +34,7 @@ def Q_learning(q_table, bins, episodes = 5000, gamma = 0.95, lr = 0.1, timestep 
             observation, reward, done, info = env.step(action)
             next_state = Discrete(observation,bins)
             score+=reward
-          
+            reward=reward*4-abs(next_state[0])
             if not done:
                 max_future_q = np.max(q_table[next_state])
                 current_q = q_table[current_state+(action,)]
