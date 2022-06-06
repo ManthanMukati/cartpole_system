@@ -55,8 +55,8 @@ try:
                   time.sleep(delay1)
                   #time.sleep(1)
               elif i==2:  
-                  GPIO.output(out1,GPIO.LOW)
-                  GPIO.output(out2,GPIO.HIGH)
+                  GPIO.output(out1,GPIO.HIGH)
+                  GPIO.output(out2,GPIO.LOW)
                   GPIO.output(out3,GPIO.LOW)
                   GPIO.output(out4,GPIO.LOW)
                   time.sleep(delay1)
@@ -69,9 +69,9 @@ try:
                   time.sleep(delay1)
                   #time.sleep(1)
               elif i==4:  
-                  GPIO.output(out1,GPIO.LOW)
+                  GPIO.output(out1,GPIO.HIGH)
                   GPIO.output(out2,GPIO.LOW)
-                  GPIO.output(out3,GPIO.HIGH)
+                  GPIO.output(out3,GPIO.LOW)
                   GPIO.output(out4,GPIO.LOW)
                   time.sleep(delay1)
                   #time.sleep(1)
@@ -83,10 +83,10 @@ try:
                   time.sleep(delay1)
                   #time.sleep(1)
               elif i==6:    
-                  GPIO.output(out1,GPIO.LOW)
+                  GPIO.output(out1,GPIO.HIGH)
                   GPIO.output(out2,GPIO.LOW)
                   GPIO.output(out3,GPIO.LOW)
-                  GPIO.output(out4,GPIO.HIGH)
+                  GPIO.output(out4,GPIO.LOW)
                   time.sleep(delay1)
                   #time.sleep(1)
               elif i==7:    
