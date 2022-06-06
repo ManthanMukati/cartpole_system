@@ -20,7 +20,7 @@ GPIO.setup(out3,GPIO.OUT)
 GPIO.setup(out4,GPIO.OUT)
 
 print ("First calibrate by giving some +ve and -ve values.....")
-delay1=0.1
+delay1=1
 
 try:
    while(1):
