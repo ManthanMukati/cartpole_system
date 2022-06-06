@@ -28,7 +28,7 @@ try:
       GPIO.output(out2,GPIO.LOW)
       GPIO.output(out3,GPIO.LOW)
       GPIO.output(out4,GPIO.LOW)
-      x = input()
+      x = int(input())
       if x>0 and x<=400:
           for y in range(x,0,-1):
               if negative==1:
