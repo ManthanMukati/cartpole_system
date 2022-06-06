@@ -1,10 +1,10 @@
 import RPi.GPIO as GPIO
 import time 
 
-out1 = 13
+out1 = 15
 out2 = 11
-out3 = 15
-out4 = 12
+out3 = 13
+out4 = 16
 
 i=0
 positive=0
@@ -20,7 +20,7 @@ GPIO.setup(out3,GPIO.OUT)
 GPIO.setup(out4,GPIO.OUT)
 
 print ("First calibrate by giving some +ve and -ve values.....")
-delay1=0.1
+delay1=0.03
 
 try:
    while(1):
